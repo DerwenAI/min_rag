@@ -1,0 +1,7 @@
+beautifulsoup4 >= 4.14
+dspy >= 3.0
+icecream >= 2.1
+lancedb >= 0.26
+markdown >= 3.10
+polars >= 1.36
+sentence-transformers >= 5.2

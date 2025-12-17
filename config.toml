@@ -1,0 +1,14 @@
+[vect]
+
+lancedb_uri = "data/lancedb"
+chunk_table = "chunk"
+chunk_size = 1024
+fts_column = "text"
+
+[rag]
+
+lm_name = "ollama_chat/gpt-oss:20b"
+api_base = "http://localhost:11434"
+temperature = 0.0
+max_tokens = 3000
+max_chunks = 11
