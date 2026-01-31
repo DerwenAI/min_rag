@@ -26,11 +26,11 @@ If you want to use ChatGPT instead of a locally hosted LLM:
 Otherwise this uses [`ollama`](https://ollama.com/) to download and
 orchestrate a local LLM.
 
-The [`oss-gpt:20b`](https://huggingface.co/openai/gpt-oss-20b) model
+The [`gpt-oss:20b`](https://huggingface.co/openai/gpt-oss-20b) model
 is set by default, and to have it running locally:
 
 ```bash
-ollama pull oss-gpt:20b
+ollama pull gpt-oss:20b
 ```
 
 Or change the "rag.lm_name" configuration setting to a different model
